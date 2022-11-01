@@ -2,8 +2,7 @@
 
 <img src="./logo.png" alt="Rustle" width="500"/>
 
-Rustle is an automatic static analyzer for NEAR smart contract in Rust. It can help to locate tens of different vulnerabilities in NEAR smart contract. 
-According to [DefiLlama](https://defillama.com/chain/Near), among the top 10 DApps in NEAR, 8 are audited by BlockSec. With the rich audit experience and deep understanding on NEAR protocol, we build this tool and share it with the community
+An automatic static analyzer for NEAR smart contract in Rust
 
 ## Get started
 
@@ -17,7 +16,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # install LLVM 14
 wget https://apt.llvm.org/llvm.sh
-chmod +x llvm.shx
+chmod +x llvm.sh
 sudo ./llvm.sh 14
 rm llvm.sh
 
